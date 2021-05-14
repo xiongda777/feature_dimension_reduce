@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 '''
 LDA（Linear Discriminant Analysis)线性判别分析：降维后组间类别中心距离最大（类间散度矩阵），组内协方差最小（类内散度矩阵）
-LDA是有监督的降维方法
+LDA是有监督的降维方法，利用了类别信息
 应用公式：瑞利商（Rayleigh quotient）函数
 https://www.cnblogs.com/pinard/p/6244265.html
 降维时依赖样本均值，PCA降维依赖样本方差
